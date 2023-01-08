@@ -1,5 +1,8 @@
 console.log('Ready for coding');
 
+
+
+
 // Task 1
 // Write a function that takes two numbers (a and b) as argument
 // Sum a and b
@@ -11,6 +14,8 @@ console.log('\n','Task1')
 console.log(sumNums(1, 2)); //  3
 console.log(sumNums(1, 10)); //  11
 console.log(sumNums(99, 1)); //  100
+
+
 
 
 // Task 2
@@ -28,6 +33,8 @@ console.log(getType('string')); //  string
 console.log(getType(['array'])); //  object
 
 
+
+
 // Task 3
 // Write a function that takes two values, say a and b, as arguments
 // Return true if the two values are equal and of the same type
@@ -39,6 +46,8 @@ console.log(checkEquality(2, 3)); // false
 console.log(checkEquality(3, 3)); // true
 console.log(checkEquality(1, '1')); // false
 console.log(checkEquality('10', '10')); // true
+
+
 
 
 // Task 4
@@ -53,6 +62,8 @@ console.log(getNthChar('zyxbwpl',5)) // 'w'
 console.log(getNthChar('gfedcba',3)) // 'e'
 
 
+
+
 // Task 5
 // Write a function that takes a string (a) as argument
 // Remove the first 3 characters of a
@@ -64,7 +75,6 @@ console.log('\n','Task5')
 console.log(trimFirstChars('abcdefg')) // 'defg'
 console.log(trimFirstChars('1234')) // '4'
 console.log(trimFirstChars('fgedcba')) // 'dcba'
-
 
 
 
@@ -84,7 +94,6 @@ console.log(getLastChars('fgedcba')) // 'cba'
 
 
 
-
 // Task 7
 // Write a function that takes a string (a) as argument
 // Get the first 3 characters of a
@@ -96,7 +105,6 @@ console.log('\n','Task7')
 console.log(getFirstChars('abcdefg')) // 'abc'
 console.log(getFirstChars('1234')) // '123'
 console.log(getFirstChars('fgedcba')) // 'fge'
-
 
 
 
@@ -119,8 +127,6 @@ console.log(getFirstHalf('gedcba')) // 'ged'
 
 
 
-
-
 // Task 9
 // Write a function that takes a string (a) as argument
 // Remove the last 3 characters of a
@@ -139,8 +145,6 @@ console.log(trimLastChars('fgedcba')) // 'fged'
 
 
 
-
-
 // Task 10
 // Write a function that takes two numbers (a and b) as argument
 // Return b percent of a
@@ -151,8 +155,6 @@ console.log('\n','Task10')
 console.log(getPrecentOf(100,50)) // 50
 console.log(getPrecentOf(10,1)) // 0.1
 console.log(getPrecentOf(500,25)) // 125
-
-
 
 
 
@@ -198,7 +200,6 @@ console.log(isEven(-111)) // false
 
 
 
-
 // Task 13
 // Write a function that takes two strings (a and b) as arguments
 // Return the number of times a occurs in b
@@ -230,12 +231,6 @@ console.log(checkWholeNum(10.48)) // false
 
 
 
-
-
-
-
-
-
 // Task 15
 // Write a function that takes two numbers (a and b) as arguments
 // If a is smaller than b, divide a by b
@@ -259,7 +254,6 @@ console.log(calcFunction(10, 100)) // 0.1
 console.log(calcFunction(90, 45)) // 4050
 console.log(calcFunction(8, 20)) // 0.4
 console.log(calcFunction(2, 0.5)) // 1
-
 
 
 
@@ -288,9 +282,6 @@ console.log(concatStrings(' think, therefore I am', 'I')) // 'I think, therefore
 
 
 
-
-
-
 // Task 17
 // Write a function that takes a number (a) as argument
 // Round a to the 2nd digit after the comma
@@ -303,7 +294,6 @@ console.log(roundNum(2.12397)) // 2.12
 console.log(roundNum(3.136)) // 3.14
 console.log(roundNum(1.12397)) // 1.12
 console.log(roundNum(26.1379)) // 26.14
-
 
 
 
@@ -321,15 +311,6 @@ console.log('\n','Task 18')
 console.log(numToArray(10)) // [1,0]
 console.log(numToArray(931)) // [9,3,1]
 console.log(numToArray(193278)) // [1,9,3,2,7,8]
-
-
-
-
-
-
-
-
-
 
 
 
@@ -389,10 +370,6 @@ console.log(checkForPrime(2000)) // 2003
 
 
 
-
-
-
-
 // Task 21
 // Write a function that takes two numbers, say x and y, as arguments
 // Check if x is divisible by y
@@ -421,7 +398,6 @@ console.log(isDivisible(-5, 7)) // 0
 
 
 
-
 // Task 22
 // Write a function that takes two strings (a and b) as arguments
 // Beginning at the end of 'a', insert 'b' after every 3rd character of 'a'
@@ -445,11 +421,6 @@ console.log('\n','Task 22')
 console.log(func('1234567','.')) // '1.234.567'
 console.log(func('abcde','$')) // 'ab$cde'
 console.log(func('zxyzxyzxyzxyzxyz','w')) // 'zwxyzwxyzwxyzwxyzwxyz'
-
-
-
-
-
 
 
 
@@ -564,7 +535,6 @@ console.log(getLastN([1, 2, 3, 4, 5, 6, 7, 8], 3)) // [ 6, 7, 8 ]
 
 
 
-
 // Task 29
 // Write a function that takes an array (a) and a value (b) as argument
 // The function should clean a from all occurrences of b
@@ -584,7 +554,6 @@ console.log(filterArr([1,2,'2',1], 1)) // [2, '2']
 
 
 
-
 // Task 30
 // Write a function that takes an array (a) as argument
 // Return the number of elements in a
@@ -595,9 +564,6 @@ console.log('\n','Task 30')
 console.log(count([1,2,2,4])) // 4
 console.log(count([9,9,9])) // 3
 console.log(count([4,3,2,1,0])) // 5
-
-
-
 
 
 
@@ -629,7 +595,6 @@ console.log(arraySortDESC([4,2,3,1])) // [4,3,2,1]
 
 
 
-
 // Task 33
 // Write a function that takes an array of strings as argument
 // Sort the array elements alphabetically
@@ -640,7 +605,6 @@ const arraySortASC = (array: string[]): string[] => array.sort();
 console.log('\n','Task 33')
 console.log(arraySortASC(['b', 'c', 'd', 'a'])) // ['a', 'b', 'c', 'd']
 console.log(arraySortASC(['z', 'c', 'd', 'a', 'y', 'a', 'w'])) // ['a', 'a', 'c', 'd', 'w', 'y', 'z']
-
 
 
 
@@ -705,7 +669,6 @@ console.log(isEqual(['10',10,10,10])) // false
 
 
 
-
 // Task 37
 // Write a function that takes arguments an arbitrary number of arrays
 // It should return an array containing the values of all arrays
@@ -716,7 +679,6 @@ console.log('\n','Task 37')
 console.log(arrayMerge([1, 2, 3], [4, 5, 6])) // [1, 2, 3, 4, 5, 6]
 console.log(arrayMerge(['a', 'b', 'c'], [4, 5, 6])) // ['a', 'b', 'c', 4, 5, 6]
 console.log(arrayMerge([true, true], [1, 2], ['a', 'b'])) // [true, true, 1, 2, 'a', 'b']
-
 
 
 
@@ -732,18 +694,6 @@ console.log('\n','Task 38')
 console.log(arraySort([{a:1,b:2},{a:5,b:4}])) // [{a:1,b:2},{a:5,b:4}]
 console.log(arraySort([{a:2,b:10},{a:5,b:4}])) // [{a:5,b:4},{a:2,b:10}]
 console.log(arraySort([{a:1,b:7},{a:2,b:1}])) // [{a:2,b:1},{a:1,b:7}]
-
-// myFunction([{a:1,b:2},{a:5,b:4}])
-// Expected
-// [{a:1,b:2},{a:5,b:4}]
-
-// myFunction([{a:2,b:10},{a:5,b:4}])
-// Expected
-// [{a:5,b:4},{a:2,b:10}]
-
-// myFunction([{a:1,b:7},{a:2,b:1}])
-// Expected
-// [{a:2,b:1},{a:1,b:7}]
 
 
 
@@ -769,7 +719,6 @@ console.log(arrayMergeUnique([-10, 22, 333, 42], [-11, 5, 22, 41, 42])) // [ -11
 
 
 
-
 // Task 40
 // Write a function that takes an array (a) and a number (b) as arguments
 // Sum up all array elements with a value greater than b
@@ -786,7 +735,6 @@ console.log('\n','Task 40')
 console.log(sumGraterThanN([1, 2, 3, 4, 5, 6, 7], 2)) // 25
 console.log(sumGraterThanN([-10, -11, -3, 1, -4], -3)) // 1
 console.log(sumGraterThanN([78, 99, 100, 101, 401], 99)) // 602
-
 
 
 
@@ -811,9 +759,6 @@ console.log(range(2, 10)) // [2, 3, 4, 5, 6, 7, 8, 9, 10]
 console.log(range(1, 3)) // [1, 2, 3]
 console.log(range(-5, 5)) // [-5, -4, -3, -2, -1, 0,  1,  2,  3,  4, 5]
 console.log(range(2, 7)) // [2, 3, 4, 5, 6, 7]
-
-
-
 
 
 
@@ -885,8 +830,6 @@ console.log(unshiftSix([null,false], 11)) // [11,null,false]
 
 
 
-
-
 // Task 44
 // Write a function that takes an array (a) and a value (n) as arguments
 // Save every nth element in a new array
@@ -910,7 +853,6 @@ console.log(getNthElement([7,2,1,6,3,4,5,8,9,10],2)) // [2,6,4,8,10]
 
 
 
-
 // Task 45
 // Write a function that takes an object with two properties as argument
 // It should return the value of the property with key country
@@ -920,7 +862,6 @@ const getCountry = (obj: { [key: string]: string}): string => obj.country;
 console.log('\n','Task 45')
 console.log(getCountry({  continent: 'Asia',  country: 'Japan'})) // 'Japan'
 console.log(getCountry({  country: 'Sweden',  continent: 'Europe'})) // 'Sweden'
-
 
 
 
@@ -939,8 +880,6 @@ console.log(getProp({  'prop-2': 'two',  prop: 'test'})) // 'two'
 
 
 
-
-
 // Task 47
 // Write a function that takes an object with two properties and a string as arguments
 // It should return the value of the property with key equal to the value of the string
@@ -954,7 +893,6 @@ const getByKey = (obj: Continents, key: string): string => obj[key];
 console.log('\n','Task 47')
 console.log(getByKey({  continent: 'Asia',  country: 'Japan'}, 'continent')) // 'Asia'
 console.log(getByKey({  country: 'Sweden',  continent: 'Europe'}, 'country')) // 'Sweden'
-
 
 
 
@@ -985,7 +923,6 @@ console.log(hasKey({x:'a',y:'b',z:'c'},'z')) // true
 
 
 
-
 // Task 49
 // Write a function that a string (a) as argument
 // Create an object that has a property with key 'key' and a value of a
@@ -1008,7 +945,6 @@ console.log(toObject('b')) // {key:'b'}
 
 
 
-
 // Task 50
 // Write a function that takes two strings (a and b) as arguments
 // Create an object that has a property with key 'a' and a value of 'b'
@@ -1027,7 +963,6 @@ console.log('\n','Task 50')
 console.log(toObjectKeyVal('a','b')) // {a:'b'}
 console.log(toObjectKeyVal('z','x')) // {z:'x'}
 console.log(toObjectKeyVal('b','w')) // {b:'w'}
-
 
 
 
@@ -1078,7 +1013,6 @@ console.log(objKeys({w:15,x:22,y:13})) // ['w','x','y']
 
 
 
-
 // Task 53
 // Write a function that takes an object (a) as argument
 // Return the sum of all object values
@@ -1098,7 +1032,6 @@ console.log('\n','Task 53')
 console.log(sumValues({a:1,b:2,c:3})) // 6
 console.log(sumValues({j:9,i:2,x:3,z:4})) // 18
 console.log(sumValues({w:15,x:22,y:13})) // 50
-
 
 
 
@@ -1123,7 +1056,6 @@ console.log('\n','Task 54')
 console.log(removeKeyB({ a: 1, b: 7, c: 3 })) // { a: 1, c: 3 }
 console.log(removeKeyB({ b: 0, a: 7, d: 8 })) // { a: 7, d: 8 }
 console.log(removeKeyB({ e: 6, f: 4, b: 5, a: 3 })) // { e: 6, f: 4, a: 3 }
-
 
 
 
@@ -1161,31 +1093,21 @@ console.log(objecUpdateKeyMerge({ a: 5, b: 4 }, { c: 3, b: 1, e: 2 })) // { a: 5
 // Multiply all values of 'a' by 'b'
 // Return the resulting object
 
-/* type Task56 = {
+type Task56 = {
     [key: string]: number
 }
 
 const multiplyBy = (obj: Task56, num: number): Task56 => {
 
-    
+    Object.keys(obj).forEach(key => obj[key] *= num);
+
+    return obj;
 }
 
-console.log('\n\r','Task 55')
+console.log('\n\r','Task 56')
 console.log(multiplyBy({a:1,b:2,c:3},3)) // {a:3,b:6,c:9}
 console.log(multiplyBy({j:9,i:2,x:3,z:4},10)) // {j:90,i:20,x:30,z:40}
-console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
-
-// myFunction({a:1,b:2,c:3},3)
-// Expected
-// {a:3,b:6,c:9}
-
-// myFunction({j:9,i:2,x:3,z:4},10)
-// Expected
-// {j:90,i:20,x:30,z:40}
-
-// myFunction({w:15,x:22,y:13},6)
-// Expected
-// {w:90,x:132,y:78}
+console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78}
 
 
 
@@ -1195,17 +1117,23 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // Somehow, the properties and keys of the object got mixed up
 // Swap the Javascript object's key with its values and return the resulting object
 
-// myFunction({z:'a',y:'b',x:'c',w:'d'})
-// Expected
-// {a:'z',b:'y',c:'x',d:'w'}
+type Task57 = {
+    [key: string | number]: number | string
+}
 
-// myFunction({2:'a',4:'b',6:'c',8:'d'})
-// Expected
-// {a:'2',b:'4',c:'6',d:'8'}
+const keyValSwap = (obj: Task57): Task57 => {
 
-// myFunction({a:1,z:24})
-// Expected
-// {1:'a',24:'z'}
+    const swaped: Task57 = {};
+
+    Object.keys(obj).forEach(key => swaped[obj[key]] = key);
+
+    return swaped;
+}
+
+console.log('\n\r','Task 57')
+console.log(keyValSwap({z:'a',y:'b',x:'c',w:'d'})) // {a:'z',b:'y',c:'x',d:'w'}
+console.log(keyValSwap({2:'a',4:'b',6:'c',8:'d'})) // {a:'2',b:'4',c:'6',d:'8'}
+console.log(keyValSwap({a:1,z:24})) // {1:'a',24:'z'}
 
 
 
@@ -1216,17 +1144,26 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // Replace empty strings and strings that contain only whitespace with null values
 // Return the resulting object
 
-// myFunction({ a: 'a', b: 'b', c: '' })
-// Expected
-// { a: 'a', b: 'b', c: null }
+type Task58 = {
+    [key: string]: string | null
+}
 
-// myFunction({ a: '', b: 'b', c: ' ', d: 'd' })
-// Expected
-// { a: null, b: 'b', c: null, d: 'd' }
+const objectEmptyToNull = (obj: Task58): Task58 => {
 
-// myFunction({ a: 'a', b: 'b ', c: ' ', d: '' })
-// Expected
-// { a: 'a', b: 'b ', c: null, d: null }
+    Object.keys(obj).forEach(key => {
+        
+        if(obj[key] === '' || obj[key] === ' ') {
+            obj[key] = null;
+        }
+    });
+
+    return obj;
+}
+
+console.log('\n\r','Task 58')
+console.log(objectEmptyToNull({ a: 'a', b: 'b', c: '' })) // { a: 'a', b: 'b', c: null }
+console.log(objectEmptyToNull({ a: '', b: 'b', c: ' ', d: 'd' })) // { a: null, b: 'b', c: null, d: 'd' }
+console.log(objectEmptyToNull({ a: 'a', b: 'b ', c: ' ', d: '' })) // { a: 'a', b: 'b ', c: null, d: null }
 
 
 
@@ -1239,21 +1176,40 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // Attach the unit kg to the weight
 // Return a new object with all available properties that we are interested in
 
-// myFunction({fn: 'Lisa', ln: 'Müller', age: 17, size: 175, weight: 67})
-// Expected
-// {fn: 'Lisa', ln: 'Müller', size: '175cm', weight: '67kg'}
+type PersonalInfo = {
+    fn: string,
+    ln: string,
+    age?: number,
+    size?: number | string,
+    weight?: number | string,
+    email?: string
+}
 
-// myFunction({fn: 'Martin', ln: 'Harper', age: 26, email: 'martin.harper@test.de', weight: 102})
-// Expected
-// {fn: 'Martin', ln: 'Harper', weight: '102kg'}
+const objectAddUnits = (person: PersonalInfo): PersonalInfo => {
 
-// myFunction({fn: 'Andrew', ln: 'Harper', age: 81, size: 175, weight: 71})
-// Expected
-// {fn: 'Andrew', ln: 'Harper', size: '175cm', weight: '71kg'}
+    const obj: PersonalInfo = {...person};
+    if(('size' in obj)) {
+        obj.size += 'cm';
+    }
 
-// myFunction({fn: 'Matthew', ln: 'Müller', age: 19, email: 'matthew@mueller.de'})
-// Expected
-// {fn: 'Matthew', ln: 'Müller'}
+    if(('weight' in obj)) {
+        obj.weight += 'kg';
+    }
+
+    if(('email' in obj)) {
+        delete obj.email;
+    }
+
+    delete obj.age;
+
+    return obj;
+}
+
+console.log('\n\r','Task 59')
+console.log(objectAddUnits({fn: 'Lisa', ln: 'Müller', age: 17, size: 175, weight: 67})) // {fn: 'Lisa', ln: 'Müller', size: '175cm', weight: '67kg'}
+console.log(objectAddUnits({fn: 'Martin', ln: 'Harper', age: 26, email: 'martin.harper@test.de', weight: 102})) // {fn: 'Martin', ln: 'Harper', weight: '102kg'}
+console.log(objectAddUnits({fn: 'Andrew', ln: 'Harper', age: 81, size: 175, weight: 71})) // {fn: 'Andrew', ln: 'Harper', size: '175cm', weight: '71kg'}
+console.log(objectAddUnits({fn: 'Matthew', ln: 'Müller', age: 19, email: 'matthew@mueller.de'})) // {fn: 'Matthew', ln: 'Müller'}
 
 
 
@@ -1264,17 +1220,24 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // Return the new array of objects
 // Tip: try not to mutate the original array
 
-// myFunction([{ city: 'Tokyo', country: 'Japan' }, { city: 'Bangkok', country: 'Thailand' }], 'Asia')
-// Expected
-// [{ city: 'Tokyo', country: 'Japan', continent: 'Asia' }, { city: 'Bangkok', country: 'Thailand', continent: 'Asia' }]
+type Locations = {
+    city: string,
+    country: string,
+    continent?: string
+}[]
 
-// myFunction([{ city: 'Stockholm', country: 'Sweden' }, { city: 'Paris', country: 'France' }], 'Europe')
-// Expected
-// [{ city: 'Stockholm', country: 'Sweden', continent: 'Europe' }, { city: 'Paris', country: 'France', continent: 'Europe' }]
+const addContinent = (locations: Locations, continent: string): Locations => {
 
+    const locationCopy: Locations = [...locations];
 
+    locationCopy.forEach(arr => arr['continent'] = continent);
 
+    return locationCopy;
+}
 
+console.log('\n\r','Task 60')
+console.log(addContinent([{ city: 'Tokyo', country: 'Japan' }, { city: 'Bangkok', country: 'Thailand' }], 'Asia')) // [{ city: 'Tokyo', country: 'Japan', continent: 'Asia' }, { city: 'Bangkok', country: 'Thailand', continent: 'Asia' }]
+console.log(addContinent([{ city: 'Stockholm', country: 'Sweden' }, { city: 'Paris', country: 'France' }], 'Europe')) // [{ city: 'Stockholm', country: 'Sweden', continent: 'Europe' }, { city: 'Paris', country: 'France', continent: 'Europe' }]
 
 
 
@@ -1285,17 +1248,26 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // It should have a key for each unique value of the array
 // The corresponding object value should be the number of times the key occurs within the array
 
-// myFunction([1,2,2,3])
-// Expected
-// {1:1,2:2,3:1}
+type Task61 = {
+    [key: number]: number
+}
 
-// myFunction([9,9,9,99])
-// Expected
-// {9:3,99:1}
+const arrayMergeIntoObject = (nums: number[]): Task61 => {
 
-// myFunction([4,3,2,1])
-// Expected
-// {1:1,2:1,3:1,4:1}
+    const numObj: Task61 = {};
+
+    nums.forEach(val => {
+        numObj[val] = (numObj[val] || 0) + 1;
+    });
+
+    return numObj;
+}
+
+console.log('\n\r','Task 61')
+console.log(arrayMergeIntoObject([1,2,2,3])) // {1:1,2:2,3:1}
+console.log(arrayMergeIntoObject([9,9,9,99])) // {9:3,99:1}
+console.log(arrayMergeIntoObject([4,3,2,1])) // {1:1,2:1,3:1,4:1}
+
 
 
 
@@ -1304,17 +1276,15 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // It should return true if the dates are equal
 // It should return false otherwise
 
-// myFunction(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 08:45:00'))
-// Expected
-// false
+const isDatesEqual = (date1: Date, date2: Date): boolean => {
 
-// myFunction(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 08:00:00'))
-// Expected
-// true
+    return date1.getTime() === date2.getTime();
+}
 
-// myFunction(new Date('2001/01/01 08:00:00'), new Date('2000/01/01 08:00:00'))
-// Expected
-// false
+console.log('\n\r','Task 62')
+console.log(isDatesEqual(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 08:45:00'))) // false
+console.log(isDatesEqual(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 08:00:00'))) // true
+console.log(isDatesEqual(new Date('2001/01/01 08:00:00'), new Date('2000/01/01 08:00:00'))) // false
 
 
 
@@ -1323,13 +1293,17 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // Write a function that takes two date instances as argument
 // It should return the number of days that lies between those dates
 
-// myFunction(new Date('2020-06-11'), new Date('2020-06-01'))
-// Expected
-// 10
+const daysBetween = (date1: Date, date2: Date): number => {
 
-// myFunction(new Date('2000-01-01'), new Date('2020-06-01'))
-// Expected
-// 7457
+    const daysBetween: number = date1.getTime() - date2.getTime();
+    const day: number = 86400000;   // in miliseconds
+
+    return Math.abs(daysBetween / day);
+}
+
+console.log('\n\r','Task 63')
+console.log(daysBetween(new Date('2020-06-11'), new Date('2020-06-01'))) // 10
+console.log(daysBetween(new Date('2000-01-01'), new Date('2020-06-01'))) // 7457
 
 
 
@@ -1339,22 +1313,16 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // It should return true if they fall on the exact same day
 // It should return false otherwise
 
-// myFunction(new Date('2000/01/01'), new Date('2000/01/01'))
-// Expected
-// true 
+const isEqualDates = (date1: Date, date2: Date): boolean => {
 
-// myFunction(new Date('2000/01/01'), new Date('2000/01/02'))
-// Expected
-// false 
+    return date1.getTime() === date2.getTime();
+}
 
-// myFunction(new Date('2001/01/01'), new Date('2000/01/01'))
-// Expected
-// false 
-
-// myFunction(new Date('2000/11/01'), new Date('2000/01/01'))
-// Expected
-// false
-
+console.log('\n\r','Task 64')
+console.log(isEqualDates(new Date('2000/01/01'), new Date('2000/01/01'))) // true 
+console.log(isEqualDates(new Date('2000/01/01'), new Date('2000/01/02'))) // false 
+console.log(isEqualDates(new Date('2001/01/01'), new Date('2000/01/01'))) // false 
+console.log(isEqualDates(new Date('2000/11/01'), new Date('2000/01/01'))) // false 
 
 
 
@@ -1367,13 +1335,12 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // and return an array which contains elements from both 
 // arrays
 
-// myFunction([1, 2], [3, 4]) 
-// Expected
-// [1, 2, 3, 4]
+const mergeArrays = (a: number[], b: number[]): number[] => [...a, ...b];
 
-// myFunction([1, 2], [3, 4, 5, 6]) 
-// Expected
-// [1, 2, 3, 4, 5, 6]
+console.log('\n\r','Task 65')
+console.log(mergeArrays([1, 2], [3, 4]) ) // [1, 2, 3, 4]
+console.log(mergeArrays([1, 2], [3, 4, 5, 6]) ) // [1, 2, 3, 4, 5, 6]
+
 
 
 
@@ -1382,9 +1349,10 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // and return an array which contains all elements from the given array
 // and the given string as the last element
 
-// myFunction(['Apple', 'Orange', 'Banana'], 'Kiwi'); 
-// Expected
-// ['Apple', 'Orange', 'Banana', 'Kiwi']
+const pushString = (arr: string[], str: string): string[] => [...arr, str];
+
+console.log('\n\r','Task 66')
+console.log(pushString(['Apple', 'Orange', 'Banana'], 'Kiwi')) // ['Apple', 'Orange', 'Banana', 'Kiwi']
 
 
 
@@ -1394,9 +1362,10 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // and return an array which contains all elements from the given array
 // and the given string as the first element
 
-// myFunction(['Apple', 'Orange', 'Banana'], 'Kiwi'); 
-// Expected
-// ['Kiwi', 'Apple', 'Orange', 'Banana']
+const unshiftString = (arr: string[], str: string): string[] => [str, ...arr];
+
+console.log('\n\r','Task 67')
+console.log(unshiftString(['Apple', 'Orange', 'Banana'], 'Kiwi')) // ['Kiwi', 'Apple', 'Orange', 'Banana']
 
 
 
@@ -1406,14 +1375,16 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // and return an object which contains properties from both 
 // objects
 
-// myFunction({ a:1, b:2 }, { c:3, d:4 }) 
-// Expected
-// { a:1, b:2, c:3, d:4 }
+type Task68 = {
+    [key: string]: number
+}
+const mergeObjects = (obj1: Task68, obj2: Task68): Task68 => {
+    return {...obj1, ...obj2}
+};
 
-// myFunction({ a:1, b:2 }, { c:3, d:4, e:5, f:6 }) 
-// Expected
-// { a:1, b:2, c:3, d:4, e:5, f:6 }
-
+console.log('\n\r','Task 68')
+console.log(mergeObjects({ a:1, b:2 }, { c:3, d:4 }) ) // { a:1, b:2, c:3, d:4 }
+console.log(mergeObjects({ a:1, b:2 }, { c:3, d:4, e:5, f:6 }) ) // { a:1, b:2, c:3, d:4, e:5, f:6 }
 
 
 
@@ -1423,10 +1394,14 @@ console.log(multiplyBy({w:15,x:22,y:13},6)) // {w:90,x:132,y:78} */
 // and return an object which contains properties from the given object
 // and a new property favoriteMovie with the value equal to the given string
 
-// myFunction({ eyeColor: 'green', age: 10 }, 'Garfield') 
-// Expected
-// { eyeColor: 'green', age: 10, favoriteMovie:  'Garfield' }
+type Fan = {
+    [key: string]: string | number
+}
 
-// myFunction({ eyeColor: 'blue', age: 15 }, 'Twilight') 
-// Expected
-// { eyeColor: 'blue', age: 15, favoriteMovie:  'Twilight' }
+const objectPush = (obj: Fan, str: string): Fan => {
+    return {...obj, favoriteMovie: str}
+}
+
+console.log('\n\r','Task 69')
+console.log(objectPush({ eyeColor: 'green', age: 10 }, 'Garfield') ) // { eyeColor: 'green', age: 10, favoriteMovie:  'Garfield' }
+console.log(objectPush({ eyeColor: 'blue', age: 15 }, 'Twilight') ) // { eyeColor: 'blue', age: 15, favoriteMovie:  'Twilight' }
