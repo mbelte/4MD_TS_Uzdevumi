@@ -220,7 +220,7 @@ console.log(charOccurances('z', 'how many times does the character occur in this
 // If a is a whole number (has no decimal place), return true
 // Otherwise, return false
 
-const checkWholeNum = (num: number): boolean => num % 1 == 0 ? true : false;
+const checkWholeNum = (num: number): boolean => num % 1 == 0;
 
 console.log('\n','Task14')
 console.log(checkWholeNum(4)) // true 
@@ -688,7 +688,9 @@ console.log(arrayMerge([true, true], [1, 2], ['a', 'b'])) // [true, true, 1, 2, 
 // Sort the array by property b in ascending order
 // Return the sorted array
 
-const arraySort = (array: any): any => array.sort((a: any, b: any) => a.b > b.b ? 1 : -1);
+type NumbersToSort = Record<string, number>
+
+const arraySort = (array: NumbersToSort[]) => array.sort((a, b) => a.b > b.b ? 1 : -1);
 
 console.log('\n','Task 38')
 console.log(arraySort([{a:1,b:2},{a:5,b:4}])) // [{a:1,b:2},{a:5,b:4}]
@@ -1185,7 +1187,7 @@ type PersonalInfo = {
     email?: string
 }
 
-const objectAddUnits = (person: PersonalInfo): PersonalInfo => {
+const objectAddUnits = (person: PersonalInfo) => {
 
     const obj: PersonalInfo = {...person};
     if(('size' in obj)) {
@@ -1398,7 +1400,7 @@ type Fan = {
     [key: string]: string | number
 }
 
-const objectPush = (obj: Fan, str: string): Fan => {
+const objectPush = (obj: Fan, str: string) => {
     return {...obj, favoriteMovie: str}
 }
 
